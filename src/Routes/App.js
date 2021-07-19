@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import LoadingPage from '../pages/loadingPage';
+import LoadingPage from '../Pages/loadingPage';
 
 export default class App extends Component {
     render() {
