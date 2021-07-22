@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import LoadingPage from '../Pages/DisplayAlbumsPage';
+import AlbumsPage from '../Pages/DisplayAlbumsPage';
 import PhotoPage from "../Pages/DisplayPhotoPage"
 
 export default class App extends Component {
@@ -9,7 +9,7 @@ export default class App extends Component {
             <div>
                  <Router>
                      <Switch>
-                        <Route path="/" exact component={LoadingPage} />
+                        <Route path="/" exact component={AlbumsPage} />
                         <Route path="/photo" component={PhotoPage} />
                      </Switch>
                  </Router>                
