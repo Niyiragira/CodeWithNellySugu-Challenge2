@@ -14,7 +14,7 @@ export const getPhotosAction = (albumId) => async (dispatch) => {
             return dispatch(getPhotoFail(errorMessage))
 
         }else{
-            return dispatch(getPhotoFail('Network Fails'))
+            return dispatch(getPhotoFail('Check your network please, and request again !'))
         }
 
     }

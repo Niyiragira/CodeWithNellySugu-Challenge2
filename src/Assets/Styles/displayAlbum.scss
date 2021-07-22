@@ -10,6 +10,7 @@
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background:rgba(0, 0, 0, 0.055);
 }
 .app{
   max-width: 960px;
@@ -127,6 +128,20 @@ h1{
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.733) 
 }
 
+span{
+  font-family: Roboto;
+  color: red;
+}
+
+.error{
+  padding-top:0% ;
+  padding-left: 0%;
+  padding-bottom:0% ;
+  padding-right: 0%;
+  background-color: rgba(255, 0, 0, 0.192);
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     h1{
         margin: 5%;
@@ -165,31 +180,36 @@ h1{
 }
 
 input{
-      background:none;
+      background:white;
       border-bottom-style: 2px solid #fff;
       font-family: Arial;
-      width: 300px;
-      height: 37px;
+      width: 100px;
       text-align: left;
       font-size: 16px;
       border-top-style: solid;
       border-left-style: solid;
       border-right-style: solid;
       border-radius: 19px;
-      padding: 4px;
+      padding: 1%;
+      margin: 2%;
     }
 
+form{
+  direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
 button {
-  background: rgb(238, 238, 238);
-  color: green;
-  border: 4px blue;
-  border-radius: 16px;
+  background: green;
+  color: #ffffff;
+  border-radius: 10%;
   font-size: 16px;
-  padding: 7px;
-  width: 150px;
+  padding: 1%;
+  width: 210px;
   font-weight: bold;
   text-align: center;
   }
   button:hover {
-  box-shadow: 2px 3px 6px 3px rgb(73, 25, 136);
+  box-shadow: 1px 2px 4px 2px rgba(73, 25, 136, 0.726);
 }

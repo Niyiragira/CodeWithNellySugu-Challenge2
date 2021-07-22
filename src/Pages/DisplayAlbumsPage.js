@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import LoadingComponent from "../Components/DisplayAlbum";
-import SearchAlbum from "../Components/SearchAlbum"
-
+import DisplayAlbum from "../Components/DisplayAlbum";
+import NavBar from "../Components/MenuBar"
 
 export default function DisplayAlbumsPage() {
     return (
         <div>
-            {/* <SearchAlbum/> */}
-            <LoadingComponent />
+            <NavBar />
+            <DisplayAlbum />
         </div>
     )
 }
