@@ -11,7 +11,6 @@ Creating an interactive user interface of images gallery.
 - React js
 - Redux
 - Webpack
-- Jest
 - Babel
 
 # Setting up and running the application 🔧
@@ -30,17 +29,9 @@ To start the development server run the command below
 
 ---
 
-# Testing 🔬
-
-Install all project dependencies
-
-> `npm i`
-
----
-
 # Deployment 🚀
 
-[Heroku]()
+[Heroku](https://air-album.herokuapp.com)
 
 ---
 
