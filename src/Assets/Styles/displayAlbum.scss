@@ -16,52 +16,16 @@ body{
   max-width: 960px;
   margin: 0px auto;
 }
-.title h1{
-  color: var(--primary);
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  font-weight: normal;
-}
-.title h2, .title p{
-  text-align: center;
-}
-.title h2{
-  margin-top: 60px;
-  font-size: 2.6rem;
-}
 
-/* upload form styles */
 form{
   margin: 30px auto 10px;
   text-align: center;
 }
 
-label{
-  display: block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--primary);
-  border-radius: 50%;
-  margin: 10px auto;
-  line-height: 30px;
-  color: var(--primary);
-  font-weight: bold;
-  font-size: 24px;
-}
-label:hover{
-  background: var(--primary);
-  color: white;
-}
-.output{
-  height: 60px;
-  font-size: 0.8rem;
-}
 .error{
   color: var(--error);
 }
 
-
-/* image grid styles */
 .img-grid{
   margin: 20px auto;
   display: grid;
@@ -72,7 +36,6 @@ label:hover{
   overflow: hidden;
   height: 0;
   padding: 50% 0;
-  /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
 }
  .img-wrap:hover{
